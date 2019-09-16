@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Calendar</title>
+</head>
+
+<body>
+    <div class="center-align">
+        <div class="calendar" id="calendar">
+            <div class="current-day text-center">
+                <h1 class="left-date"></h1>
+                <div class="left-date-week"></div>
+            </div>
+            <div class="displaying-content">
+                <div class="left-side">
+
+                    <div class="current-day-events">
+                        <div class="holiday-header">Current Holidays</div>
+                        <table class="event-list">
+                        </table>
+                    </div>
+                    <div class="text-right calendar-change-year">
+                        <div class="calendar-change-year-slider">
+                            <span class="fa fa-caret-left cursor-pointer slide-prev"></span>
+                            <span class="current-year"></span>
+                            <span class="fa fa-caret-right cursor-pointer slide-next"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-side">
+                    <div class="month-list">
+                        <table class="month">
+                            <tr>
+                                <td>Jan</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="week-list">
+                        <table class="week">
+                            <tr>
+                                <td>Sun</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="days-list">
+                        <table class="days">
+                            <tr></tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script async src="js/main.js"></script>
+</body>
+
+</html>
