@@ -3,7 +3,7 @@ const days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
 
 // declaring Moths globally
 const Months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
-// making an object for list of holidays
+// making an object for list of holidays in 2019
 const listOfHolidays = {
     ["1/0/2019"]: ["New Year's Day"],
     ["14/0/2019"]: ["Makar Sankranti/Pongal"],
