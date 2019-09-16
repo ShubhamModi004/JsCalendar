@@ -178,6 +178,7 @@ body{
   margin: 2px;
   text-align: center;
   width: calc(520px /16);
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 720px){
@@ -288,6 +289,7 @@ body{
   line-height: 40px;
   font-size: 1rem;
   position: relative;
+  cursor: pointer;
 }
 .days td:after{
   content: attr(data-day);
